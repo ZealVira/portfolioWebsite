@@ -1,4 +1,5 @@
 @import url("fontawesome-all.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
 /* @import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap"); */
 /* @import url("https://fonts.googleapis.com/css2?family=Signika:wght@400;600;700&display=swap"); */
 @import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;600;700&display=swap");
@@ -1755,6 +1756,21 @@ input, select, textarea {
 			width: 100%;
 		}
 
+		.image-profile{
+			height: 280px; 
+			width: 280px; 
+			border: 2px solid #e7ecec;
+			border-radius: 50%;
+		}
+
+		@media (max-width: 768px) {
+			.image-profile {
+				width: 180px; /* Adjust size for smaller screens */
+				height: 180px;
+			}
+		}
+
+
 		.image.avatar48 {
 			width: 48px;
 			height: 48px;
@@ -1813,6 +1829,10 @@ input, select, textarea {
 		}
 
 /* Icons */
+
+.icon-lg {
+	font-size: 5em; /* Adjust size here */
+}
 
 	ul.icons {
 		cursor: default;
@@ -1978,6 +1998,31 @@ input, select, textarea {
 			background-color: #7eaeac;
 		}
 
+		.cont {
+			display: flex;
+			gap: 20px; /* Adds space between the buttons */
+			justify-content: center; /* Centers the buttons horizontally */
+			flex-wrap: wrap; /* Allows wrapping of buttons on smaller screens */
+		}
+		
+		.button-top {
+			padding: 10px 20px;
+			background-color: #1cadbd; /* Customize button color */
+			color: black;
+			text-decoration: none;
+			border-radius: 5px;
+			text-align: center;
+			display: inline-block;
+		}
+		
+		@media (max-width: 768px) {
+			.cont {
+				flex-direction: column; /* Stack buttons vertically on smaller screens */
+				gap: 15px; /* Adjust the gap between buttons when stacked */
+			}
+		}
+		
+
 /* Item */
 
 	.item {
@@ -2031,6 +2076,7 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
+
 
 /* Header */
 
@@ -2152,6 +2198,7 @@ input, select, textarea {
 					position: relative;
 					display: block;
 					font-size: 0.8em;
+					font-family: inherit;
 				}
 
 					#nav ul li a span:before {
@@ -2325,6 +2372,8 @@ input, select, textarea {
 			}
 
 		/* Icons */
+
+		
 
 			ul.icons li a {
 				width: 1.75em;
