@@ -1834,7 +1834,7 @@ input, select, textarea {
 /* Icons */
 
 .icon-lg {
-	font-size: 5em; /* Adjust size here */
+	font-size: 8em; /* Adjust size here */
 }
 
 	ul.icons {
@@ -2136,6 +2136,7 @@ input, select, textarea {
 			margin: 0;
 			padding: 1em 0 1em 0;
 			font-size: 0.8em;
+			line-height: 1.25;
 		}
 
 			.item header h3 {
