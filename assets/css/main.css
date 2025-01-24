@@ -2114,12 +2114,14 @@ input, select, textarea {
 			border-radius: 5px;
 			text-align: center;
 			display: inline-block;
+			margin-bottom: 10px;
 		}
 		
 		@media (max-width: 768px) {
 			.cont {
 				flex-direction: column; /* Stack buttons vertically on smaller screens */
-				gap: 15px; /* Adjust the gap between buttons when stacked */
+				gap: 15px;
+				
 			}
 		}
 		
@@ -2558,6 +2560,7 @@ input, select, textarea {
 
 			.item {
 				margin-bottom: 15px;
+				padding: 10px;
 			}
 
 		/* Icons */
