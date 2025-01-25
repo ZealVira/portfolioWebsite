@@ -1976,14 +1976,16 @@ input, select, textarea {
 			}
 
 			.techs {
-				width: 28%; /* Adjust width to fit 2 items per row */
+				width: 80px; /* Adjust width to fit 2 items per row */
 				height: 70px; /* Smaller height */
 				padding: 10px;
+				padding-top: 10px;
+				text-align: center;
 			}
 
 			.links-icon{
-				font-size: 2.5rem;
-				margin: 10px;
+				font-size: 2.2rem;
+				
 			}
 
 			.tech-icon {
